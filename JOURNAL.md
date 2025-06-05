@@ -7,7 +7,7 @@ created_at: "2025-06-02"
 
 # fourty.
 Made by: @luteron6
-Total hours so far: 1
+Total hours so far: 2
 
 My family has a travel van that has a Raspberry Pi in it. The problem is, it's hard to lug a large (I think it's ~85%) keyboard around. So I end VNC'ing in and trying to type on my phone. But it's hard to type special characters, and it's just too small. So here's my solution: a 40% keyboard optimized for commandlines!
 
@@ -25,6 +25,12 @@ Brainstorming. I've been doing some research about minimalist keyboards over the
 
 I also created this repository, and added it to Highway's submissions.yml file.
 
-
+## Day 2 - 6/4/2025 - 6:51 PM (1 Hour)
+Ok. Here's what I'm going to do:
+* MX switches (because I've used them before)
+* Microcontroller: Waveshare RP2040-Zero (I really want USB-C, but they won't let me get an Orpheus Pico). I'll do without a battery and bluetooth.
+* Blank keycaps, or maybe at least the alphabet ones with legends.
+* Here's what I was thinking for my layout:
+<br><br>![image](https://github.com/user-attachments/assets/a609f38b-804f-4d06-a92d-54c89d59f983)
 
 
