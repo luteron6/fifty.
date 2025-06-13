@@ -7,7 +7,7 @@ created_at: "2025-06-02"
 
 # fourty.
 Made by: @luteron6
-Total hours so far: 2
+Total hours so far: 8
 
 My family has a travel van that has a Raspberry Pi in it. The problem is, it's hard to lug a large (I think it's ~85%) keyboard around. So I end VNC'ing in and trying to type on my phone. But it's hard to type special characters, and it's just too small. So here's my solution: a 40% keyboard optimized for commandlines!
 
@@ -33,4 +33,24 @@ Ok. Here's what I'm going to do:
 * Here's what I was thinking for my layout:
 <br><br>![image](https://github.com/user-attachments/assets/a609f38b-804f-4d06-a92d-54c89d59f983)
 
+## Day 3 - 6/13/2025 - 2:30 PM (6 Hours)
+OK! That took way too long. Here's a summary of what I did:
+* I found the MX switches I want to use: [MX Browns](https://www.amazon.com/Glorious-PC-Gaming-Race-Switches/dp/B0716ZNZ1P/) It's a 120 pack, but they're only ~29 cents each!
+* I also found the touchpad I want to use. It's a [Cirque GlidePoint 40mm Trackpad](https://shop.beekeeb.com/product/40mm-cirque-glidepoint-circle-trackpad-module-diy-kit-for-split-mechanical-keyboard/). It communicates over I2C, so it connects just like a 0.96" OLED display.
+* I finalized my layout! At least the number of keys. It has 48 keys (plus right and left mouse buttons). So technically it's closer to a 50% keyboard. Here's my [KLE](https://www.keyboard-layout-editor.com/##@_css=%2F@font-face%20%7B%0D%0A%20%20font-family%2F:%20'Zain'%2F%3B%0D%0A%20%20src%2F:%20url('https%2F:%2F%2F%2F%2Fraw.githubusercontent.com%2F%2Fgoogle%2F%2Ffonts%2F%2Fmain%2F%2Fofl%2F%2Fzain%2F%2FZain-Regular.ttf')%20format('truetype')%2F%3B%0D%0A%20%20font-style%2F:%20normal%2F%3B%0D%0A%20%20font-weight%2F:%20400%2F%3B%0D%0A%7D%0D%0A%0D%0A.keylabel0,%20.keylabel1,%20.keylabel2,%20.keylabel3,%20.keylabel4,%20.keylabel5,%20.keylabel6,%20.keylabel7,%20.keylabel8,%20.keylabel9,%20.keylabel010,%20.keylabel11,%20.keylabel12%7B%0D%0A%20%20font-family%2F:%20'Zain',%20sans-serif%2F%3B%0D%0A%20%20font-size%2F:%2016px%2F%3B%0D%0A%7D%3B&@_w:1.25%3B&=Esc%0A~%0A%0A%7C&=Q%0A%0A%0A!&=W%0A%0A%0A%2F@&=E%0A%0A%0A%23&=R%0A%0A%0A$&=T%0A%0A%0A%25&=Y%0A%0A%0A%5E&=U%0A%0A%0A%2F&&=I%0A%0A%0A*&=O%0A%0A%0A(&=P%0A%0A%0A)&=%7B%0A%5B&=%7D%0A%5D&=Back%3Cbr%3ESpace&_x:1&a:7%3B&=&=%3B&@_a:4&w:1.5%3B&=Tab&=A%0A%0A%0A1&=S%0A%0A%0A2&=D%0A%0A%0A3&_n:true%3B&=F%0A%0A%0A4&=G%0A%0A%0A5&=H%0A%0A%0A6&_n:true%3B&=J%0A%0A%0A7&=K%0A%0A%0A8&=L%0A%0A%0A9&=%2F:%0A%2F%3B%0A%0A0&=%22%0A'%0A%0A%60&_w:1.75%3B&=Enter%3B&@_w:2%3B&=Shift&=Z%0A%0A%0A-&=X%0A%0A%0A%2F_&=C%0A%0A%0A%2F=&=V%0A%0A%0A+&=B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F%0A%0A%5C&_w:1.75%3B&=Shift%3B&@_w:1.25%3B&=CTRL&_a:7&w:1.25%3B&=%3Ci%20class%2F='fa%20fa-windows'%3E%3C%2F%2Fi%3E&_a:4%3B&=Alt&_a:7&w:6.25%3B&=&_a:4&w:1.25%3B&=Fn&_a:7%3B&=%3Ci%20class%2F='fa%20fa-angle-left'%3E%3C%2F%2Fi%3E&=%3Ci%20class%2F='fa%20fa-angle-down'%3E%3C%2F%2Fi%3E&=%3Ci%20class%2F='fa%20fa-angle-up'%3E%3C%2F%2Fi%3E&=%3Ci%20class%2F='fa%20fa-angle-right'%3E%3C%2F%2Fi%3E) layout. It's also pictured below:
+<br><br>![thumbnail_IMG_2734](https://github.com/user-attachments/assets/4dfe4553-f8e0-468e-8ab8-0c279b4a3334)<br>
+* I put it all into KiCad, drew up the schematic, laid out the PCB, and routed it all: <br><br>![image](https://github.com/user-attachments/assets/aa047285-44d8-42da-ac96-26366a9425db)
+![image](https://github.com/user-attachments/assets/ff33e6e3-d298-44e9-9b62-bd664b33b378)
 
+![image](https://github.com/user-attachments/assets/565fe0f1-a46f-45b2-8187-1429881fd1a7)
+*Ignore the OLED screen, I just copied the footprint over and will be using it as a header for the touchpad.
+* I didn't have enough pins on the RP2040-Zero for the matrix, so I switched to the [RP2040-Plus](https://www.waveshare.com/wiki/RP2040-Plus#Pinout_Definition) board also by Waveshare.
+
+That's basically what I did! Also I now have a rough BOM:
+* [MX Brown Switches (50)](https://www.amazon.com/Glorious-PC-Gaming-Race-Switches/dp/B0716ZNZ1P/): $34.99
+* [Trackpad](https://shop.beekeeb.com/product/40mm-cirque-glidepoint-circle-trackpad-module-diy-kit-for-split-mechanical-keyboard/): $27.00
+* [RP2040-Plus](https://www.waveshare.com/rp2040-plus.htm?sku=23503): $6.99
+* PCB (from JLCPCB, approximately): $15.00
+* [Magnetic USB-C Connector](https://www.amazon.com/Magnetic-DuHeSin-Straight-Transfer-Thunderbolt/dp/B0BMX53FF9/ref=sr_1_2_sspa?sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY): $20.89
+* Misc. (diodes, resistors): $5.00
+* Total: $109.87
