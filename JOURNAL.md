@@ -7,9 +7,10 @@ created_at: "2025-06-02"
 
 # fourty.
 Made by: @luteron6
-Total hours so far: 8
 
-My family has a travel van that has a Raspberry Pi in it. The problem is, it's hard to lug a large (I think it's ~85%) keyboard around. So I end VNC'ing in and trying to type on my phone. But it's hard to type special characters, and it's just too small. So here's my solution: a 40% keyboard optimized for commandlines!
+Total hours so far: 11
+
+My family has a travel van that has a Raspberry Pi in it. The problem is, it's hard to lug a large (I think it's ~90-100%) keyboard around. So I end VNC'ing in and trying to type on my phone. But it's hard to type special characters, and it's just too small. So here's my solution: a 40% keyboard optimized for commandlines!
 
 ## Day 1 - 6/2/2025 - 9:29 PM (1 Hour)
 Brainstorming. I've been doing some research about minimalist keyboards over the past couple days, and here's some goals I would like to accomplish:
@@ -23,12 +24,12 @@ Brainstorming. I've been doing some research about minimalist keyboards over the
 * It either runs off of bluetooth and a battery, or just a USB-C port. I know magnetic-USB-C thingies exist, so I might just go with one of those for easy connection/disconnection. The main point is to use it in the van.
 <br><br><img src="https://github.com/user-attachments/assets/91808b54-2500-4993-b6ed-938798d9d94f" width=300><br>
 
-I also created this repository, and added it to Highway's submissions.yml file.
+I also created this repository just now, and added it to Highway's submissions.yml file.
 
 ## Day 2 - 6/4/2025 - 6:51 PM (1 Hour)
 Ok. Here's what I'm going to do:
 * MX switches (because I've used them before)
-* Microcontroller: Waveshare RP2040-Zero (I really want USB-C, but they won't let me get an Orpheus Pico). I'll do without a battery and bluetooth.
+* Microcontroller: Waveshare RP2040-Zero (I really want an RP2040 with USB-C, but they won't let me get an Orpheus Pico). I'll do without a battery and bluetooth.
 * Blank keycaps, or maybe at least the alphabet ones with legends.
 * Here's what I was thinking for my layout:
 <br><br>![image](https://github.com/user-attachments/assets/a609f38b-804f-4d06-a92d-54c89d59f983)
@@ -44,6 +45,7 @@ OK! That took way too long. Here's a summary of what I did:
 
 ![image](https://github.com/user-attachments/assets/565fe0f1-a46f-45b2-8187-1429881fd1a7)
 *Ignore the OLED screen, I just copied the footprint over and will be using it as a header for the touchpad.
+
 * I didn't have enough pins on the RP2040-Zero for the matrix, so I switched to the [RP2040-Plus](https://www.waveshare.com/wiki/RP2040-Plus#Pinout_Definition) board also by Waveshare.
 
 That's basically what I did! Also I now have a rough BOM:
@@ -54,3 +56,12 @@ That's basically what I did! Also I now have a rough BOM:
 * [Magnetic USB-C Connector](https://www.amazon.com/Magnetic-DuHeSin-Straight-Transfer-Thunderbolt/dp/B0BMX53FF9/ref=sr_1_2_sspa?sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY): $20.89
 * Misc. (diodes, resistors): $5.00
 * Total: $109.87
+
+## Day 3 - 6/13/2025 - 6:59 PM (3 Hours)
+I forgot to mention regarding the circuit board - it's a 14x4 matrix (14 columns, 4 rows). I also edited the right side of my PCB so there's a touchpad circle:
+<br><br><img src="https://github.com/user-attachments/assets/c26290d1-7a1e-446e-a06e-92974a0da497" width=400><br>
+
+Here's what I have on my case: 
+
+![Screenshot 2025-06-13 210431](https://github.com/user-attachments/assets/33b6fc2a-e193-4304-89c9-865cdf22ac2c)
+![Screenshot 2025-06-13 210501](https://github.com/user-attachments/assets/f716db27-1315-4e71-88b9-e92dbf669b67)
