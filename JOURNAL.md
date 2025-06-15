@@ -65,3 +65,10 @@ Here's what I have on my case:
 
 ![Screenshot 2025-06-13 210431](https://github.com/user-attachments/assets/33b6fc2a-e193-4304-89c9-865cdf22ac2c)
 ![Screenshot 2025-06-13 210501](https://github.com/user-attachments/assets/f716db27-1315-4e71-88b9-e92dbf669b67)
+
+## Day 4 - 6/14/2025 - 8:07 PM (2 Hours)
+Just finished working on my case more. It took me a while to find the docs for the touchpad, but I found these with mounting suggestions: [here](https://www.dropbox.com/scl/fi/fl600un1qv1cupbfjng95/GP-DS-170409-TM035035-SPI-I2C-PINN-Trackpad-Spec.pdf?rlkey=1pl0tw13air87pt92mkj72igx&e=1&dl=0).
+Here's what I have on the touchpad: ![image](https://github.com/user-attachments/assets/901a1ba2-836d-44ca-8848-cbbf6932dda7)
+
+I also saw Scotto Keebs' video on making a case, and he put edges around his case, so I also did that ^. I need to keep working on the case, and get started on QMK.
+
