@@ -54,7 +54,7 @@ That's basically what I did! Also I now have a rough BOM:
 * [RP2040-Plus](https://www.waveshare.com/rp2040-plus.htm?sku=23503): $6.99
 * PCB (from JLCPCB, approximately): $15.00
 * [Magnetic USB-C Connector](https://www.amazon.com/Magnetic-DuHeSin-Straight-Transfer-Thunderbolt/dp/B0BMX53FF9/ref=sr_1_2_sspa?sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY): $20.89
-* Misc. (diodes, resistors): $5.00
+* Misc. (resistors, etc.): $5.00
 * Total: $109.87
 
 ## Day 3 - 6/13/2025 - 6:59 PM (3 Hours)
@@ -72,3 +72,7 @@ Here's what I have on the touchpad: ![image](https://github.com/user-attachments
 
 I also saw Scotto Keebs' video on making a case, and he put edges around his case, so I also did that ^. I need to keep working on the case, and get started on QMK.
 
+I need to add these things to the BOM:
+* [Stabilizers](https://www.amazon.com/DUROCK-Stabilizers-Translucent-Keyboard-Mechanical/dp/B0B2RVN19F/): $16.98
+* [SMD Diodes](https://www.amazon.com/100-Pieces-1N4148W-Switching-High-Speed/dp/B079KJX5J9/): $6.99
+* Total: $133.84
