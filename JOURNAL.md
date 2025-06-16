@@ -1,16 +1,16 @@
 ---
-title: "fourty."
+title: "fifty."
 author: "@luteron6"
-description: "The minimalist 40% keyboard optimized for commandlines!"
+description: "The minimalist 50% keyboard optimized for commandlines!"
 created_at: "2025-06-02"
 ---
 
-# fourty.
+# fifty.
 Made by: @luteron6
 
 Total hours so far: 11
 
-My family has a travel van that has a Raspberry Pi in it. The problem is, it's hard to lug a large (I think it's ~90-100%) keyboard around. So I end VNC'ing in and trying to type on my phone. But it's hard to type special characters, and it's just too small. So here's my solution: a 40% keyboard optimized for commandlines!
+My family has a travel van that has a Raspberry Pi in it. The problem is, it's hard to lug a large (I think it's ~90-100%) keyboard around. So I end VNC'ing in and trying to type on my phone. But it's hard to type special characters, and it's just too small. So here's my solution: a 50% keyboard optimized for commandlines!
 
 ## Day 1 - 6/2/2025 - 9:29 PM (1 Hour)
 Brainstorming. I've been doing some research about minimalist keyboards over the past couple days, and here's some goals I would like to accomplish:
