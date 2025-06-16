@@ -8,7 +8,7 @@ created_at: "2025-06-02"
 # fifty.
 Made by: @luteron6
 
-Total hours so far: 11
+Total hours so far: 16
 
 My family has a travel van that has a Raspberry Pi in it. The problem is, it's hard to lug a large (I think it's ~90-100%) keyboard around. So I end VNC'ing in and trying to type on my phone. But it's hard to type special characters, and it's just too small. So here's my solution: a 50% keyboard optimized for commandlines!
 
@@ -76,3 +76,38 @@ I need to add these things to the BOM:
 * [Stabilizers](https://www.amazon.com/DUROCK-Stabilizers-Translucent-Keyboard-Mechanical/dp/B0B2RVN19F/): $16.98
 * [SMD Diodes](https://www.amazon.com/100-Pieces-1N4148W-Switching-High-Speed/dp/B079KJX5J9/): $6.99
 * Total: $133.84
+
+## Day 5 - 6/16/2025 - 1:20 PM (5 Hours)
+THAT WAS A LOT! Here's a recap of what I did:
+I was editing my case, placing keycaps on the switches, and I realized I could raise the spot where the microcontroller is, along with the touchpad:
+![image](https://github.com/user-attachments/assets/77c317e2-057b-4e47-8008-c1b43554c369)
+Then I had an epiphany: Why am I putting the microcontroller on the bottom of the board when I can have it above the PCB? I's a bad idea to have the USB on the bottom, because it's too close to the bottom of the case. So I went back into KiCAD, flipped the RP2040, and re-traced all the traces previously connected to the RP2040. It took me a while to delete the old traces and redo them. Now they look really wonky.
+![image](https://github.com/user-attachments/assets/7e0cf1ad-223a-4ce2-85cf-b92ae25ddbc1)
+Then I reworked the USB port on the case:
+![image](https://github.com/user-attachments/assets/da12a3fd-b33b-4815-aad2-18abc71bcb23)
+Then I cleaned up my case a little bit more, added some rubber feet, and I think it's done now!
+
+![Screenshot 2025-06-16 133251](https://github.com/user-attachments/assets/0859b368-f094-46da-92e6-69775f27230e)
+![image](https://github.com/user-attachments/assets/f7aebb42-4bb1-4e9b-aaf9-e119e2ad8d64)
+![image](https://github.com/user-attachments/assets/cb2bc475-8eb8-43c1-a8b8-bec4a1bef209)
+![Screenshot 2025-06-16 133423](https://github.com/user-attachments/assets/f872a434-40ef-4cd2-a074-f390f9000fa8)
+![image](https://github.com/user-attachments/assets/5cd3e96d-d5f0-43d3-b987-19fa1c762667)
+
+Here's what I need to add to my BOM:
+* [Rubber Feet](https://www.amazon.com/Pack-Rubber-Silicone-Feet-Diameter/dp/B0927HC2TD/): $5.99
+* [Keycaps](https://www.amazon.com/139keys-Sublimation-switches-Mechanical-Keyboard/dp/B0BR8SMKLS/): $9.99
+
+
+Here's my whole BOM now:
+ [MX Brown Switches (50)](https://www.amazon.com/Glorious-PC-Gaming-Race-Switches/dp/B0716ZNZ1P/): $34.99
+* [Trackpad](https://shop.beekeeb.com/product/40mm-cirque-glidepoint-circle-trackpad-module-diy-kit-for-split-mechanical-keyboard/): $27.00
+* [RP2040-Plus](https://www.waveshare.com/rp2040-plus.htm?sku=23503): $6.99
+* PCB (from JLCPCB, approximately): $15.00
+* [Magnetic USB-C Connector](https://www.amazon.com/Magnetic-DuHeSin-Straight-Transfer-Thunderbolt/dp/B0BMX53FF9/ref=sr_1_2_sspa?sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY): $20.89
+* [Stabilizers](https://www.amazon.com/DUROCK-Stabilizers-Translucent-Keyboard-Mechanical/dp/B0B2RVN19F/): $16.98
+* [SMD Diodes](https://www.amazon.com/100-Pieces-1N4148W-Switching-High-Speed/dp/B079KJX5J9/): $6.99
+* [Rubber Feet](https://www.amazon.com/Pack-Rubber-Silicone-Feet-Diameter/dp/B0927HC2TD/): $5.99
+* [Keycaps](https://www.amazon.com/139keys-Sublimation-switches-Mechanical-Keyboard/dp/B0BR8SMKLS/): $9.99
+* [4.7k Ohm Resistors](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QJB3LGN/): $5.99
+* TOTAL: $150.72
+Oooooh that's a bit over budget. I'll have to work on that.
