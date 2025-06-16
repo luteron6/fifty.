@@ -1,2 +1,2 @@
-# fourty.
-A minimalist 40% keyboard optimized for commandlines!
+# fifty.
+A minimalist 50% keyboard optimized for commandlines!
