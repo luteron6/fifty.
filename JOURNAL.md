@@ -117,4 +117,5 @@ I realized I didn't have any way to connect the bottom half of my case to the to
 ![image](https://github.com/user-attachments/assets/c53e09df-74d2-48ef-8f9b-bc68f4627aee)
 I also added some art to my case and some information, made the code in QMK, and put everything in this Github repo. Will try to submit later today.
 
-*P.S. Don't open the STEP file, it's 127Mb!
+
+
