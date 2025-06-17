@@ -99,15 +99,22 @@ Here's what I need to add to my BOM:
 
 
 Here's my whole BOM now:
- [MX Brown Switches (50)](https://www.amazon.com/Glorious-PC-Gaming-Race-Switches/dp/B0716ZNZ1P/): $34.99
+* [MX Brown Switches (50)](https://www.amazon.com/Pre-lubed-Switches-Mechanical-Keyboard-Pcs-5pin/dp/B0CKTJLCDB): $24.99
 * [Trackpad](https://shop.beekeeb.com/product/40mm-cirque-glidepoint-circle-trackpad-module-diy-kit-for-split-mechanical-keyboard/): $27.00
 * [RP2040-Plus](https://www.waveshare.com/rp2040-plus.htm?sku=23503): $6.99
 * PCB (from JLCPCB, approximately): $15.00
-* [Magnetic USB-C Connector](https://www.amazon.com/Magnetic-DuHeSin-Straight-Transfer-Thunderbolt/dp/B0BMX53FF9/ref=sr_1_2_sspa?sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY): $20.89
-* [Stabilizers](https://www.amazon.com/DUROCK-Stabilizers-Translucent-Keyboard-Mechanical/dp/B0B2RVN19F/): $16.98
+* [Magnetic USB-C Connector](https://www.amazon.com/Tciogrxp-Magnetic-Connector-Compatible-Thunderbolt/dp/B0DFM1B3DK/): $11.99
+* [Stabilizers](https://www.amazon.com/DUROCK-Stabilizer-Innovative-Pre-clipped-Stabilizers/dp/B0CTHT34MJ/): $9.99
 * [SMD Diodes](https://www.amazon.com/100-Pieces-1N4148W-Switching-High-Speed/dp/B079KJX5J9/): $6.99
 * [Rubber Feet](https://www.amazon.com/Pack-Rubber-Silicone-Feet-Diameter/dp/B0927HC2TD/): $5.99
 * [Keycaps](https://www.amazon.com/139keys-Sublimation-switches-Mechanical-Keyboard/dp/B0BR8SMKLS/): $9.99
 * [4.7k Ohm Resistors](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QJB3LGN/): $5.99
-* TOTAL: $150.72
-Oooooh that's a bit over budget. I'll have to work on that.
+* M2 Threaded Inserts: already owned
+* TOTAL: $124.92. I'll have to work stuff if I have shipping later.
+
+## Day 6 - 6/17/2025 - 10:36 AM (3 Hours)
+I realized I didn't have any way to connect the bottom half of my case to the top half of my case, so I added holes in my plate, PCB, and threaded inserts to the bottom of my case. It took me forever to get the holes lined up to the PCB and the plate, but here it is:
+![image](https://github.com/user-attachments/assets/c53e09df-74d2-48ef-8f9b-bc68f4627aee)
+I also added some art to my case and some information, made the code in QMK, and put everything in this Github repo. Will try to submit later today.
+
+*P.S. Don't open the STEP file, it's 127Mb!
