@@ -104,13 +104,13 @@ Here's my whole BOM now:
 * [RP2040-Plus](https://www.waveshare.com/rp2040-plus.htm?sku=23503): $6.99
 * PCB (from JLCPCB, approximately): $15.00
 * [Magnetic USB-C Connector](https://www.amazon.com/Tciogrxp-Magnetic-Connector-Compatible-Thunderbolt/dp/B0DFM1B3DK/): $11.99
-* [Stabilizers](https://www.amazon.com/DUROCK-Stabilizer-Innovative-Pre-clipped-Stabilizers/dp/B0CTHT34MJ/): $9.99
+* [Stabilizers](https://www.amazon.com/DUROCK-Stabilizers-Translucent-Keyboard-Mechanical/dp/B0B2RVN19F/): $16.98
 * [SMD Diodes](https://www.amazon.com/100-Pieces-1N4148W-Switching-High-Speed/dp/B079KJX5J9/): $6.99
 * [Rubber Feet](https://www.amazon.com/Pack-Rubber-Silicone-Feet-Diameter/dp/B0927HC2TD/): $5.99
 * [Keycaps](https://www.amazon.com/139keys-Sublimation-switches-Mechanical-Keyboard/dp/B0BR8SMKLS/): $9.99
 * [4.7k Ohm Resistors](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QJB3LGN/): $5.99
 * M2 Threaded Inserts: already owned
-* TOTAL: $124.92. I'll have to work stuff if I have shipping later.
+* TOTAL: $131.91. I'll have to work stuff if I have shipping later.
 
 ## Day 6 - 6/17/2025 - 10:36 AM (3 Hours)
 I realized I didn't have any way to connect the bottom half of my case to the top half of my case, so I added holes in my plate, PCB, and threaded inserts to the bottom of my case. It took me forever to get the holes lined up to the PCB and the plate, but here it is:
