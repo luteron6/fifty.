@@ -1,9 +1,12 @@
 # fifty.
+![IMG_1882](https://github.com/user-attachments/assets/728ab18e-5ba6-4474-a3e7-5e1bbd92370b)
+
+
 This is my take on a minimalist 50% keyboard optimized for commandlines. I created it to solve a problem controlling the computer in my travel van. There's a monitor and computer mounted in the vehicle, but when I'm using it, there's no good spot to put the keyboard. It could go on my lap, but it's huge (~90% keyboard). And there's no spot for a mouse or touchpad. This solves both these problems. At first the goal was to create a 40% keyboard with a touchpad, but it ended up being a 50% keyboard (48 keys) with a round touchpad and right/left mouse buttons. It uses MX Brown switches, a Cirque trackpad, all powered by a Waveshare RP2040-Plus:
-![image](https://github.com/user-attachments/assets/e99c158c-3892-4fd2-9e1a-d90a61877a4a)
+<br><br>![image](https://github.com/user-attachments/assets/e99c158c-3892-4fd2-9e1a-d90a61877a4a)
 
 It's made to run this keymap:
-![image](https://github.com/user-attachments/assets/9a121015-5071-49c0-96a6-310de35e28af)
+<br><br>![image](https://github.com/user-attachments/assets/9a121015-5071-49c0-96a6-310de35e28af)
 
 ## CAD
 The case is stored in the /CAD folder, both the STL files and the STEP file. Meant to be 3D printed. Everything bolts together with M2 screws and threaded inserts. Also has rubber feet on the bottom.
