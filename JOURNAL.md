@@ -8,7 +8,8 @@ created_at: "2025-06-02"
 # fifty.
 Made by: @luteron6
 
-Total hours so far: 21
+Total hours so far: 33
+
 Estimated Cost: $170
 
 My family has a travel van that has a Raspberry Pi in it. The problem is, it's hard to lug a large (I think it's ~90-100%) keyboard around. So I end VNC'ing in and trying to type on my phone. But it's hard to type special characters, and it's just too small. So here's my solution: a 50% keyboard optimized for commandlines!
@@ -69,7 +70,7 @@ Here's what I have on my case:
 
 ## Day 4 - 6/14/2025 - 8:07 PM (2 Hours)
 Just finished working on my case more. It took me a while to find the docs for the touchpad, but I found these with mounting suggestions: [here](https://www.dropbox.com/scl/fi/fl600un1qv1cupbfjng95/GP-DS-170409-TM035035-SPI-I2C-PINN-Trackpad-Spec.pdf?rlkey=1pl0tw13air87pt92mkj72igx&e=1&dl=0).
-Here's what I have on the touchpad: ![image](https://github.com/user-attachments/assets/901a1ba2-836d-44ca-8848-cbbf6932dda7)
+Here's what I have on the touchpad:<br><img src="https://github.com/user-attachments/assets/901a1ba2-836d-44ca-8848-cbbf6932dda7" width="400">
 
 I also saw Scotto Keebs' video on making a case, and he put edges around his case, so I also did that ^. I need to keep working on the case, and get started on QMK.
 
@@ -118,5 +119,24 @@ I realized I didn't have any way to connect the bottom half of my case to the to
 ![image](https://github.com/user-attachments/assets/c53e09df-74d2-48ef-8f9b-bc68f4627aee)
 I also added some art to my case and some information, made the code in QMK, and put everything in this Github repo. Will try to submit later today.
 
+## Day 7-9 - 7/26/2025 - 9:57 PM (about 7-9 hours)
+OK! I finally got everything a few days ago and had some time to work on my keyboard. My PCB got stuck in customs for a week, so it took forever to get to my house. Anyway, I enjoyed attempting to solder the tiny 0402 resistors for the I2C bus. More on that later. After the 0402s, the SOD-123 diodes were really easy to solder:
+<div style="display: flex; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/16d07e37-c45c-4f59-a319-2b3bc5390c6f" width="400">
+  <img src="https://github.com/user-attachments/assets/3b38e4f8-81f8-4ffa-8d7e-114011c2228b" width="400">
+</div>
 
+I also soldered the microcontroller, SMD style:<br><img src="[https://github.com/user-attachments/assets/3b38e4f8-81f8-4ffa-8d7e-114011c2228b](https://github.com/user-attachments/assets/8a38801a-8c15-49aa-af56-96cf983f3d15)" width="400">
 
+Later, I realized that on my case, the touchpad dimensions were way off. So I had to redesign the whole touchpad mounting system. Also, my plate is 3mm thick, and I didn't realize that wouldn't be compatible with my screw-in stabilizers. So I had to reprint both halves of my plate to make it work. Even then, I didn't make the cutouts big enough, and I had to use some tools to make the cutout bigger. Here are some pictures:
+
+<div style="display: flex; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/5a63883e-95d3-48cc-9e42-a522a8e5742e" width="300">
+  <img src="https://github.com/user-attachments/assets/157574a4-5e9d-4db7-ac1a-54cc88cd4b20" width="300">
+  <img src="https://github.com/user-attachments/assets/81ecb6f8-efe1-41e4-a463-e052af22d6a3" width="300">
+</div>
+
+So much for those 0402 resistors:<br><img src="https://github.com/user-attachments/assets/f2264e78-4e11-47f7-aa1c-4ed8eb4b3914" width="400">
+
+Here's the whole keyboard! I really like how it turned out.![IMG_1873](https://github.com/user-attachments/assets/1dd4aeb9-0f33-40ea-889c-b442c30d96e2)
+![IMG_1882](https://github.com/user-attachments/assets/c91c94a9-f381-47d2-b396-ae55054757c7)
